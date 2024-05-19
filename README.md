@@ -2,8 +2,7 @@
 
 # Basic
 
-## 1. Create terraform module which creates vpc, public subnets, private subnets, nat gateway, internet gateway, routes.
-Module should take next input variables:
+### 1. Create terraform module which creates vpc, public subnets, private subnets, nat gateway, internet gateway, routes. Module should take next input variables:
 - name
 - vpc cidr
 - private subnets cidrs
@@ -12,32 +11,32 @@ Module should always create at least one public subnet and do not allow create z
 Private subnets are not obligatory.
 
 
-## 2. With this module create vpc and one ec2 in private subnet and one in public
+### 2. With this module create vpc and one ec2 in private subnet and one in public
 
-## 3. Destroy infrastructure
+### 3. Destroy infrastructure
 
 
 # Additional (optional)
 
-## 1. Create 2 or more ec2 instances in private subnets only using autoscaling group, generate ssh key and import it to aws for use in EC2 instances
+### 1. Create 2 or more ec2 instances in private subnets only using autoscaling group, generate ssh key and import it to aws for use in EC2 instances
 
-## 2. Configure default nginx in ec2 instances using user data
+### 2. Configure default nginx in ec2 instances using user data
 
-## 3. Create ALB in public subnets with HTTP lister and a target group linked to autoscalling group instances
+### 3. Create ALB in public subnets with HTTP lister and a target group linked to autoscalling group instances
 
-## 4. Output ALB DNS name and confirm that you can see nginx default page
+### 4. Output ALB DNS name and confirm that you can see nginx default page
 
-## 5. Destroy infrastructure
+### 5. Destroy infrastructure
 
 
 # Advanced (optional)
 
-## 1. Create custom simple default HTML file and upload it to EC2 instead of default one, make sure that you can see this custom file via ALB DNS endpoint
+### 1. Create custom simple default HTML file and upload it to EC2 instead of default one, make sure that you can see this custom file via ALB DNS endpoint
 
-## 2. Write values from output to a YAML file for further use
+### 2. Write values from output to a YAML file for further use
 
-## 3. Write ssh key to a file, configure permissions and use local exec to connect to VMs via ssh and run the uptime command there.
+### 3. Write ssh key to a file, configure permissions and use local exec to connect to VMs via ssh and run the uptime command there.
 
-## 4. Use aws module for ec2 instead of aws_instance resource
+### 4. Use aws module for ec2 instead of aws_instance resource
 
-## 5. Use separate resources from security group ingress/egress instead of dynamic
+### 5. Use separate resources from security group ingress/egress instead of dynamic
