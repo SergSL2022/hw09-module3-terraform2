@@ -9,7 +9,19 @@
 - public subnets cidrs
 Module should always create at least one public subnet and do not allow create zero public subnets.
 Private subnets are not obligatory.
-
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-55-12.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-55-32.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-56-30.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-56-51.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-57-11.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-57-53.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-58-02.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 15-00-44.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 15-01-22.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-58-21.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-59-15.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-59-34.png>)
+![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-59-48.png>)
 
 ### 2. With this module create vpc and one ec2 in private subnet and one in public
 
