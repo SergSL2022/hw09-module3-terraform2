@@ -26,3 +26,9 @@ variable "public_subnet_cidrs" {
     error_message = "At least one public subnet CIDR block must be provided."
   }
 }
+
+variable "open_ports" {
+    description = "List of open ports"
+    type = list(number)
+    default = [22, 80, 443]
+}

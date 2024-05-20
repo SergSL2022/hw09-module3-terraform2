@@ -28,3 +28,23 @@ output "public_route_table_id" {
 output "private_route_table_id" {
   value = module.vpc.private_route_table_id
 }
+
+output "public_server_id" {
+  value = aws_instance.public-server.id
+}
+
+output "public_server_public_ip" {
+  value = aws_instance.public-server.public_ip
+}
+
+output "private_server_id" {
+  value = aws_instance.private-server.id
+}
+
+output "public_security_group_id" {
+  value = aws_security_group.slipchuk-public.id
+}
+
+output "private_security_group_id" {
+  value = aws_security_group.slipchuk-private.id
+}

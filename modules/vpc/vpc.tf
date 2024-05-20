@@ -13,6 +13,7 @@ resource "aws_subnet" "public" {
   vpc_id     = aws_vpc.slipchuk.id
   cidr_block = var.public_subnet_cidrs[count.index]
   availability_zone = "eu-north-1a"
+  map_public_ip_on_launch = true
 
   tags = {
     Name = "${var.name}-public-subnet-${count.index + 1}"

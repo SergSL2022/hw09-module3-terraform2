@@ -2,6 +2,10 @@ output "vpc_id" {
   value = aws_vpc.slipchuk.id
 }
 
+output "vpc_name" {
+  value = aws_vpc.slipchuk.tags.Name
+}
+
 output "public_subnet_ids" {
   value = aws_subnet.public[*].id
 }

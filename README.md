@@ -24,8 +24,26 @@ Private subnets are not obligatory.
 ![alt text](<screenshots/Basic1/Знімок екрана з 2024-05-20 14-59-48.png>)
 
 ### 2. With this module create vpc and one ec2 in private subnet and one in public
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-31-52.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-32-16.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-33-13.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-36-32.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-38-40.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-39-10.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-39-49.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-39-59.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-40-16.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-40-51.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-41-05.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-41-43.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-41-49.png>)
+![alt text](<screenshots/Basic2/Знімок екрана з 2024-05-20 23-43-10.png>)
+
 
 ### 3. Destroy infrastructure
+![alt text](<screenshots/Basic3/Знімок екрана з 2024-05-20 23-48-54.png>)
+![alt text](<screenshots/Basic3/Знімок екрана з 2024-05-20 23-49-08.png>)
+![alt text](<screenshots/Basic3/Знімок екрана з 2024-05-20 23-56-30.png>)
 
 
 # Additional (optional)
